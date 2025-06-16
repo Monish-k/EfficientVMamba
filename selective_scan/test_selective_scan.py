@@ -1,6 +1,8 @@
 # Modified by Mzero #20240123
 # Copyright (C) 2023, Tri Dao, Albert Gu.
 
+import sys
+sys.path.append('/kaggle/working/EfficientVMamba/selective_scan')
 import math
 import torch
 import torch.nn.functional as F
